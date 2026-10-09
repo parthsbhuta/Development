@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "uat-equipment-performance-report",
+    "libraryId": "3737accf-67e9-42d8-a855-13d473909d73",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "UATEquipmentPerformanceReport",
+    "solutionShortDescription": "UATEquipmentPerformanceReport description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

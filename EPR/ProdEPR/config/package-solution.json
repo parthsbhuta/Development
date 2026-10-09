@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ProdEquipmentPerformanceReport",
+    "id": "ee4b5409-cea9-4975-973d-45a3fb09ae2a",
+    "version": "1.0.0.3",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ProdEquipmentPerformanceReport description"
+      },
+      "longDescription": {
+        "default": "ProdEquipmentPerformanceReport description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "prod-equipment-performance-report Feature",
+        "description": "The feature that activates elements of the prod-equipment-performance-report solution.",
+        "id": "00fa45d8-0c30-4a88-a7ab-22d140f1a3bf",
+        "version": "1.0.0.3"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ProdEquipmentPerformanceReport.sppkg"
+  }
+}

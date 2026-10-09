@@ -1,0 +1,63 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "heat-treat-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/heatTreat/HeatTreatWebPart.js",
+          "manifest": "./src/webparts/heatTreat/HeatTreatWebPart.manifest.json"
+        }
+      ]
+    },
+    "hydro-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hydro/HydroWebPart.js",
+          "manifest": "./src/webparts/hydro/HydroWebPart.manifest.json"
+        }
+      ]
+    },
+    "erw-mill-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/erwMill/ErwMillWebPart.js",
+          "manifest": "./src/webparts/erwMill/ErwMillWebPart.manifest.json"
+        }
+      ]
+    },
+    "ndt-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ndt/NdtWebPart.js",
+          "manifest": "./src/webparts/ndt/NdtWebPart.manifest.json"
+        }
+      ]
+    },
+    "threadline-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/threadline1/Threadline1WebPart.js",
+          "manifest": "./src/webparts/threadline1/Threadline1WebPart.manifest.json"
+        }
+      ]
+    },
+    "threadline-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/threadline2/Threadline2WebPart.js",
+          "manifest": "./src/webparts/threadline2/Threadline2WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HeatTreatWebPartStrings": "lib/webparts/heatTreat/loc/{locale}.js",
+    "HydroWebPartStrings": "lib/webparts/hydro/loc/{locale}.js",
+    "ErwMillWebPartStrings": "lib/webparts/erwMill/loc/{locale}.js",
+    "NdtWebPartStrings": "lib/webparts/ndt/loc/{locale}.js",
+    "Threadline1WebPartStrings": "lib/webparts/threadline1/loc/{locale}.js",
+    "Threadline2WebPartStrings": "lib/webparts/threadline2/loc/{locale}.js"
+  }
+}

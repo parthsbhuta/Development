@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "prod-equipment-performance-report",
+    "libraryId": "ee4b5409-cea9-4975-973d-45a3fb09ae2a",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ProdEquipmentPerformanceReport",
+    "solutionShortDescription": "ProdEquipmentPerformanceReport description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

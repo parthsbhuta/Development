@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "UATEquipmentPerformanceReport",
+    "id": "3737accf-67e9-42d8-a855-13d473909d73",
+    "version": "1.0.1.5",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "UATEquipmentPerformanceReport description"
+      },
+      "longDescription": {
+        "default": "UATEquipmentPerformanceReport description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "uat-equipment-performance-report Feature",
+        "description": "The feature that activates elements of the uat-equipment-performance-report solution.",
+        "id": "fde4bfdc-1f63-4827-a9e7-354d53c8226d",
+        "version": "1.0.1.5"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/UATEquipmentPerformanceReport.sppkg"
+  }
+}
