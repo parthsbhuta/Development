@@ -3,7 +3,7 @@
   "solution": {
     "name": "ProdEquipmentPerformanceReport",
     "id": "ee4b5409-cea9-4975-973d-45a3fb09ae2a",
-    "version": "1.0.0.3",
+    "version": "1.0.0.4",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -30,7 +30,7 @@
         "title": "prod-equipment-performance-report Feature",
         "description": "The feature that activates elements of the prod-equipment-performance-report solution.",
         "id": "00fa45d8-0c30-4a88-a7ab-22d140f1a3bf",
-        "version": "1.0.0.3"
+        "version": "1.0.0.4"
       }
     ]
   },

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "id-coating-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/idCoating/IdCoatingWebPart.js",
+          "manifest": "./src/webparts/idCoating/IdCoatingWebPart.manifest.json"
+        }
+      ]
+    },
+    "od-coating-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/odCoating/OdCoatingWebPart.js",
+          "manifest": "./src/webparts/odCoating/OdCoatingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "IdCoatingWebPartStrings": "lib/webparts/idCoating/loc/{locale}.js",
+    "OdCoatingWebPartStrings": "lib/webparts/odCoating/loc/{locale}.js"
+  }
+}

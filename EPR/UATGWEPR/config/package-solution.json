@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "UATGWEquipmentPerformanceReport",
+    "id": "e06ffe8d-c646-40f1-9b27-296dc767993b",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "UATGWEPR description"
+      },
+      "longDescription": {
+        "default": "UATGWEPR description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "uatgwepr Feature",
+        "description": "The feature that activates elements of the uatgwepr solution.",
+        "id": "3841dbf8-2ee3-4c17-9f7d-8ccfaf507871",
+        "version": "1.0.0.1"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/UATGWEquipmentPerformanceReport.sppkg"
+  }
+}

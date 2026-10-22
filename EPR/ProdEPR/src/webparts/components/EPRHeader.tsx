@@ -1247,7 +1247,7 @@ const EPRHeader: React.FC<IProps> = ({
             <ul className={styles.epr_filter_list}>
                 <li>
                     <label className={styles.epr_fl_label}>Equipment/Station Name</label>
-                    <select disabled={true} className={styles.epr_fl_textfld + ' ' + styles.epr_fl_choicefld} id="ddlStation" name="Station" value={selectedStation} onChange={(event) => { handleStationChange(event.target.value); }}>
+                    <select disabled={isEPRStarted} className={styles.epr_fl_textfld + ' ' + styles.epr_fl_choicefld} id="ddlStation" name="Station" value={selectedStation} onChange={(event) => { handleStationChange(event.target.value); }}>
                         <option value="">Select Station</option>
                         {stations.map((item, index) => (
                             <option key={item.Id || index} value={item.Title}>
